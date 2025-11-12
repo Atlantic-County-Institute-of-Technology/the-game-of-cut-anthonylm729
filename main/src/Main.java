@@ -2,11 +2,11 @@
 
 public class Main {
     public static void main(String[] args) {
+        Deck myDeck = new Deck();
+        myDeck.newDeck();
 
-        Card card = new Card(1,4);
 
-
-        System.out.println(card);
+        System.out.println(myDeck.deck[0]);
 
 
         }
