@@ -15,7 +15,7 @@ public class Deck {
     }
     public void shuffle(){
         Random rand = new Random();
-        Card temp = null;
+        Card temp;
         for (int x = 0; x < 52; x++){
             int randomIndex = rand.nextInt(52);
             temp = deck[x];
